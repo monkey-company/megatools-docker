@@ -1,4 +1,4 @@
-FROM debian:sid
+FROM debian:latest
 
 RUN apt-get update && apt-get install -y megatools
 ADD megaupload.sh /bin/megaupload
